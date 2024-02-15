@@ -1,0 +1,23 @@
+{
+  "name": "2024web",
+  "version": "1.0.0",
+  "description": "create another repo",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js --watch server/"
+  },
+  "author": "jwaff",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.3"
+  }
+}
